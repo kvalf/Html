@@ -1,3 +1,314 @@
-body {
-    background-color:rgb(190, 190, 189);
+.header {
+    background-image: url(/img/header/header.png);
+    }
+
+.heder__top {}
+
+.header__menu {
+    
 }
+
+.header__menu-list {
+    }
+
+.header__menu-item {}
+
+.header__menu-link {
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.header__logo {
+
+}
+
+.logo {
+    height: 72px;
+    width: 211px;
+}
+
+.logo__img {}
+
+.header__inner {}
+
+.header__personal {}
+
+.header__personal-list {
+    /* width: 20px;
+    height: 20px; */
+}
+
+.header__personal-item {
+    width: 20px;
+    height: 20px;
+}
+
+.header__personal-link {}
+
+.header__personal-img {}
+
+.header__social {}
+
+.social {}
+
+.social__list {}
+
+.social__item {
+    width: 20px;
+    height: 20px;
+}
+
+.social__link {}
+
+.social__img {}
+
+.header__button {
+    display: block;
+    background-color:#0aa566;
+    border-radius: 35px;
+    width: 280px;
+    height: 70px;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+}
+
+.button {
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.header__title {
+    font-size: 60px;
+    color: yellow;
+
+}
+
+.smoothies {}
+
+.smoothies__title {
+    font-size: 50px;
+    line-height: 40px;
+    color: #f7ae3b;
+}
+
+.title {
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.smoothies__text {
+    font-size: 18px;
+    line-height: 35px;
+    
+    color: #1e1e1e;
+}
+
+.text {
+    font-weight: 400;
+}
+
+.smoothies__wrap {}
+
+.smoothies__inner {
+    width: 260px;
+    height: 180px;
+}
+
+.smoothies__inner-img {
+    width: 79px;
+    height: 72px;
+}
+
+.smoothies__inner-title {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #f2612d;
+}
+
+.about {
+    background-color: #16826e;
+}
+
+.about__img {}
+
+.about__inner {}
+
+.about__title {
+    font-size: 55px;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.make-smoothies__subtitle-color {
+    color: #cae941;
+}
+
+.about__list {}
+
+.about__item {
+    font-size: 21px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.about__item--bold {
+    font-weight: 800;    
+}
+
+.about__button {
+    display: block;
+    width: 380px;
+    height: 60px;
+    border: 2px solid #f8b231;
+    border-radius: 30px;
+    font-size: 21px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.products {}
+
+.products__inner {
+    background-color:aquamarine;
+    width: 480px;
+    height: 720px;
+}
+.products__inner--color1 {
+    background-color: #632b16;
+}
+.products__inner--color2 {
+    background-color: #1a846e;
+}
+.products__inner--color3 {
+    background-color: #f7b03b;
+}
+.products__inner--color4 {
+    background-color: #c1451b;
+}
+.products__img {
+    width: 119px;
+    height: 303px;
+}
+
+.products__title {
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.products__text {
+    display: block;
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.products__button {
+    display: block;
+    font-size: 21px;
+    line-height: 22px;
+    width: 207px;
+    height: 63px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+}
+
+.story {}
+
+.story__inner {}
+
+.story__title {}
+
+.story__text {}
+
+.story__button {}
+
+.story__box {}
+
+.story__img {}
+
+.review {}
+
+.review__text {}
+
+.review__bold {}
+
+.review__inner {}
+
+.review__blockquote {}
+
+.review__color {}
+
+.review__img {}
+
+.review__arrows {}
+
+.review__arrow-left {}
+
+.review_arrow-right {}
+
+.blog {}
+
+.blog__title {}
+
+.blog__foto {}
+
+.blog__img {}
+
+.blog__inner {}
+
+.blog__subtitle {}
+
+.blog__time {}
+
+.blog__text {}
+
+.blog__link {}
+
+.instagram {}
+
+.instagram_link {}
+
+.instagram__images {}
+
+.instagram__image {}
+
+.footer {}
+
+.footer__logo {}
+
+.footer__info {}
+
+.footer__title {}
+
+.footer__list {}
+
+.footer_item {}
+
+.footer__pay {}
+
+.footer__images {}
+
+.footer__image {}
+
+.footer__form {}
+
+.footer__mail {}
+
+.footer_input {}
+
+.footor_button {}
+
+.footer__social {}
+
+.footer__small {}
+
+.footer_link {}
