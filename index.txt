@@ -165,9 +165,8 @@
         <!-- <div></div> -->
         <h2>Why clients <span>LOVE</span>us?</h2>
         <div class="inner_3">
-            <div>
-                <blockquote>Smoothie is great. I don't know what else to say. I will let my mum know about this, she could
-                    really make use of Smoothie! Smoothie saved my business</blockquote>
+            <div><q>Smoothie is great. I don't know what else to say. I will let my mum know about this, she could
+                    really make use of Smoothie! Smoothie saved my business.</q>
                 <cite>- from Santa Monica, CA</cite>
             </div>
             <img src="./img/face.png" alt="">
