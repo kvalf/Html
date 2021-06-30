@@ -1,14 +1,19 @@
 .header {
     background-image: url(/img/header/header.png);
+    height: 1080px;
     }
 
-.heder__top {}
+.heder__top {
+    padding: 69px 100px 0 100px;
+}
 
 .header__menu {
+    padding-top: 31px;
     
 }
 
 .header__menu-list {
+
     }
 
 .header__menu-item {}
@@ -22,12 +27,13 @@
 }
 
 .header__logo {
+    
 
 }
 
 .logo {
     height: 72px;
-    width: 211px;
+    width: 211px;  
 }
 
 .logo__img {}
@@ -65,31 +71,28 @@
 
 .social__img {}
 
-.header__button {
-    display: block;
+.header__btn {
     background-color:#0aa566;
-    border-radius: 35px;
     width: 280px;
     height: 70px;
     font-size: 24px;
     line-height: 40px;
-    letter-spacing: -0.02em;
+    color
 }
 
-.button {
+.btn {
+    border-radius: 35px;
     font-weight: 800;
+    color: #ffffff;
     letter-spacing: -0.02em;
-}
-
-.header__title {
-    font-size: 60px;
-    color: yellow;
-
 }
 
 .smoothies {}
 
 .smoothies__title {
+    padding: 98px 0 0 642px;
+    width: 637px;
+    height: 38px;
     font-size: 50px;
     line-height: 40px;
     color: #f7ae3b;
@@ -101,17 +104,23 @@
 }
 
 .smoothies__text {
-    font-size: 18px;
-    line-height: 35px;
+    width: 915px;height: 122px;
+    padding: 192px 0 0 502px;
     
-    color: #1e1e1e;
 }
 
 .text {
+    font-size: 18px;
+    line-height: 35px;
     font-weight: 400;
+    color: #1e1e1e;
 }
 
-.smoothies__wrap {}
+.smoothies__wrap {
+    width: 1000px;
+    height: 400px;
+    padding: 60px 0 0 40px;
+}
 
 .smoothies__inner {
     width: 260px;
@@ -162,7 +171,6 @@
 }
 
 .about__button {
-    display: block;
     width: 380px;
     height: 60px;
     border: 2px solid #f8b231;
