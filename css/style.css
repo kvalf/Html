@@ -474,27 +474,33 @@ justify-content: center;
 }
 
 .instagram {
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
     
     
 }
 
 .instagram_link {
-    font-family: "Muli-ExtraBold";
+    display: flex;
+    align-items:center;
+    gap: 15px;
+    text-decoration: none;
+    color: #0aa566;
     font-size: 24px;
-    line-height: 40px;
+    
        
 }
 
 .instagram__images {
     display: flex;
-    padding: 45px 0 0 0;
+    padding: 45px 0 6px 0;
     
 }
 
 .instagram__image {
-    width: 364px;
-    padding-right: 10px;
+    
+    
     
 }
 
