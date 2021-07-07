@@ -422,6 +422,10 @@ justify-content: center;
 
 .blog {
     padding: 100px 0 200px 0;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     
 }
 
@@ -434,7 +438,7 @@ justify-content: center;
 .blog__foto {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 
 }
 
@@ -445,17 +449,15 @@ justify-content: center;
 .blog__inner {}
 
 .blog__subtitle {
-    
-    font-family: "Muli-ExtraBold";
+    padding-top: 130px;
     font-size: 30px;
-    font-weight: 800;
     color: #f2612d;
 }
 
 .blog__time {
     font-family: "Muli-regular";
     font-size: 16px;
-    line-height: 35px;
+    line-height: 2em;
     font-weight: 400;
     color: #1e1e1e;
 }
@@ -468,7 +470,7 @@ justify-content: center;
 .blog__link {
     text-decoration: none;
     font-family: "Muli-Semi-BoldItalic";
-    
+    color: #000;
 }
 
 .instagram {
