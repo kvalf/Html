@@ -150,29 +150,28 @@ column-gap:50px;
 .social__img {
 
 }
-
-.heder_button{
-    margin-top: 104px;
-   display: flex;
-   justify-content: center;
-}
-.header__btn {
-    
-    background-color:#0aa566;
-    width: 280px;
-    height: 70px;
-    font-size: 24px;
-    
-    
-}
-
 .btn {
     border-radius: 35px;
     font-weight: 800;
     color: #ffffff;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 25px;
 }
+
+.header__btn {
+    margin-top: 104px;
+    display: flex;
+    justify-content: center;
+}
+.header__btn-shop{
+    font-family: "Muli-ExtraBold";
+    background-color:#0aa566;
+    width: 280px;
+    height: 70px;
+    font-size: 24px;
+}
+
+
 
 .smoothies {
     padding-top: 100px;
@@ -187,12 +186,12 @@ column-gap:50px;
 .title {
     font-family: "Muli-ExtraBold";
     font-size: 50px;
-    line-height: 40px;
+    line-height: 1.5em;
     letter-spacing: -0.02em;
 }
 
 .smoothies__text {
-    max-width: 900px;
+    max-width: 915px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 75px;
@@ -226,10 +225,10 @@ justify-content: center;
 }
 
 .smoothies__inner-title {
-    
+    font-family: "Muli-ExtraBold";
     font-size: 25px;
-    line-height: 40px;
-    color: #f2612d;
+    line-height: 1.5em;
+    color: #3d2218;
 }
 
 .about {
