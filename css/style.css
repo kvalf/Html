@@ -151,6 +151,9 @@ column-gap:50px;
 
 }
 .btn {
+    font-family: "Muli-bold";
+    font-size: 21px;
+    line-height: 1.5em;
     border-radius: 35px;
     font-weight: 800;
     color: #ffffff;
@@ -164,11 +167,9 @@ column-gap:50px;
     justify-content: center;
 }
 .header__btn-shop{
-    font-family: "Muli-ExtraBold";
     background-color:#0aa566;
     width: 280px;
     height: 70px;
-    font-size: 24px;
 }
 
 
@@ -280,8 +281,7 @@ justify-content: center;
     width: 380px;
     height: 60px;
     border: 2px solid #f8b231;
-    font-size: 21px;
-    line-height: 1.5em;
+    
 }
 
 .products {
@@ -289,10 +289,13 @@ justify-content: center;
 }
 /*правильно что ширину и высоту задал?*/
 .products__inner {
-    text-align: center;
-        width: 480px;
-        height: 720px;
-        
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 480px;
+    height: 720px;
+    
 }
 .products__inner--chocolate {
     background-color: #632b16;
@@ -308,28 +311,25 @@ justify-content: center;
 
 }
 .products__img {
-    margin-bottom: 34px;
+    margin-bottom: 35px;
     
 }
 
 .products__title {
-    font-size: 24px;
-    line-height: 22px;
+    font-size: 20px;
     color: #ffffff;
 }
 
 .products__text {
     font-family: "Muli-Italic";
     display: block;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 32px;
     color: #ffffff;
     margin-bottom: 65px;
 }
 
 .products__btn {
-    font-size: 21px;
-    line-height: 22px;
     width: 207px;
     height: 63px;
     border: 2px solid #ffffff;
@@ -340,7 +340,7 @@ justify-content: center;
 .story {
     
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 120px 0 160px 0;
     
@@ -366,8 +366,7 @@ justify-content: center;
     background-color: #0aa566;
     width: 300px;
     height: 60px;
-    font-size: 21px;
-    line-height: 22px;
+    
 }
 
 .story__box {
@@ -395,15 +394,17 @@ justify-content: center;
     display: flex;
     justify-content: center;
     text-align: center;
-   margin-bottom: 240px;
+    margin-bottom: 240px;
+    column-gap: 60px;
 }
 
 .review__blockquote {
     font-family: "Muli-bold";
     color: #ffffff;
     max-width: 455px;
-    margin-bottom: 30px;
-    line-height: 35px;
+    margin-bottom: 25px;
+    line-height: 2.5em;
+    padding-top: 55px;
  }
 
 .review__color {
