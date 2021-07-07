@@ -243,7 +243,7 @@ justify-content: center;
 }
 
 .about__inner {
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 .about__title {
@@ -264,7 +264,7 @@ justify-content: center;
 .about__item {
     font-family: "Muli-regular";
     font-size: 21px;
-    line-height: 1.9em;
+    line-height: 2em;
     color: #ffffff;
    
 
@@ -280,10 +280,8 @@ justify-content: center;
     width: 380px;
     height: 60px;
     border: 2px solid #f8b231;
-    border-radius: 30px;
     font-size: 21px;
-    line-height: 22px;
-   
+    line-height: 1.5em;
 }
 
 .products {
