@@ -604,12 +604,14 @@ form > input:last-child {
 
 }
 .footer__small-text {
-    text-align: right;
+    
+    
     font-family: "Muli-regular";
     font-size: 13px;
     color: #af8a82;
 }
 .footer_link {
+    
     float: right;
     color: #fff;
     text-decoration: none;
