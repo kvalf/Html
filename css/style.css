@@ -507,6 +507,7 @@ justify-content: center;
 .footer {
     display: flex;
     justify-content: space-around;
+    
     background-color: #f4ad3b;
     padding-top: 80px;
     padding-bottom: 85px;
@@ -523,14 +524,16 @@ justify-content: center;
 }
 
 .footer__list {
+    line-height: 2.2em;
+    color: #6d450c;
     
 }
 
 .footer_item {
     font-family: "Muli-bold";
-    margin-bottom: 25px;
-    letter-spacing: 0.02em;
 }
+
+
 
 .footer__pay {
     
@@ -540,13 +543,13 @@ justify-content: center;
     max-width: 270px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
-   
+    gap: 25px;
+    
 }
 
 .footer__image {
 
-    margin: 0 20px 25px 0;
+    
 }
  
 
@@ -570,12 +573,13 @@ form > input:last-child {
     width: 500px;
     height: 60px;
     font-size: 17px;
+    
 }
 
 
 .footor_btn {
     display: inline-block;
-    padding: 40px 45px 0 190px;
+    padding: 40px 45px 0 180px;
     font-family: "Muli-ExtraBold";
     text-transform: uppercase;
     color: #6d450c;
@@ -584,20 +588,34 @@ form > input:last-child {
 
 .footer__social {
     display: inline-block;
+    background-color:transparent;
 
 }
 
 
 
-.footer_link {
-   
-}
+
 
 .footer__small {
-height: 60px;
-display: flex;
-justify-content: center;
-align-items: center;
+    height: 60px;
+    
     background-color: #6f2e1a;
+    
+
+}
+.footer__small-text {
+    text-align: right;
+    font-family: "Muli-regular";
+    font-size: 13px;
+    color: #af8a82;
+}
+.footer_link {
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Muli-regular";
+    font-size: 16px;
+    padding-right: 100px;
+    
 
 }
