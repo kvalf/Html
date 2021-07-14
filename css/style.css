@@ -441,9 +441,10 @@ background-position: 310px center;
     border: 2px solid #ffffff;
     background-color: transparent;
     padding-left: 33px;
-    background-image:url(../img/Arrow.png);
+    background-image:url(../img/Arrow_wite.png);
     background-repeat:no-repeat;
     background-position: 135px center;
+    
 }
 
 
@@ -452,7 +453,7 @@ background-position: 310px center;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 120px 0 160px 0;
+    padding: 123px 0 160px 0;
     
 }
 
@@ -464,12 +465,15 @@ background-position: 310px center;
 
 .story__title {
     color: #f7ae3b;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    letter-spacing: -0.04em;
 }
 
 .story__text {
-    
-    margin-bottom: 60px;
+    /* font-size: 15px; */
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .story__btn {
@@ -477,11 +481,25 @@ background-position: 310px center;
     width: 300px;
     height: 60px;
     border: none;
+    background-image: url(../img/Arrow.png);
+    background-repeat: no-repeat;
+    background-position: 230px center;
+    padding-left: 30px;
     
 }
-
-.story__box {
-   
+.story__box{
+    position: relative;
+}
+.story__box::before {
+    content: "";
+    display: block;
+    width: 290px;
+    height: 216px;
+    background-image:url(../img/stamp.png);
+    background-repeat:no-repeat;
+    position: absolute;
+    left:-170px;
+    top:20px;
 }
 
 .story__img {
